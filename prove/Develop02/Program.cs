@@ -1,9 +1,11 @@
 using System;
-
+using Journals;
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        Journal journal = new Journal();
+
+        journal.Menu();
     }
 }

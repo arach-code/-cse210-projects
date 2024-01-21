@@ -1,0 +1,8 @@
+Date: 1/21/2024 12:13:40 AM | 
+Prompt: prompt 1 | 
+Response: chose 1
+---------
+Date: 1/21/2024 12:13:49 AM | 
+Prompt: prompt 3 | 
+Response: chose 3
+---------

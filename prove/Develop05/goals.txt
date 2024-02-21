@@ -1,0 +1,4 @@
+SimpleGoal::Eat alot of meat##eat atleast 100kgs of meat every day##2000##False%%
+EternalGoal::Jogging##Will run 2 miles every early morning##1000##False%%
+ChecklistGoal::Read##i will rea atleast 2 books every month##3000##False##2##1000##0%%
+Scores::3000

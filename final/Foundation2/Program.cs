@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 class Address
 {
@@ -92,13 +93,13 @@ class Order
 
     public string GetPackingLabel()
     {
-        string packingLabel = "Packing Label:\n";
+        StringBuilder packingLabel = new StringBuilder("Packing Label:\n");
         foreach (var product in Products)
         {
-            packingLabel += $"{product.Name} (ID: {product.ProductId})\n";
+            packingLabel.AppendLine($"{product.Name} (ID: {product.ProductId})");
         }
 
-        return packingLabel;
+        return packingLabel.ToString();
     }
 
     public string GetShippingLabel()

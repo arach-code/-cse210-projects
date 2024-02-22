@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Activity
 {
     private DateTime Date { get; set; }
-    private int DurationInMinutes { get; set; }
+    protected int DurationInMinutes { get; set; }
 
     public Activity(DateTime date, int durationInMinutes)
     {
